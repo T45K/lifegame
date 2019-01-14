@@ -22,7 +22,7 @@ public class NewGameButton implements ActionListener{
 		base.setPreferredSize(new Dimension(400,300));
 		frame.setMaximumSize(new Dimension(300,200));
 
-		JButton ub = new JButton("Undo(残り"+model.undoCounter+"回)");
+		JButton ub = new JButton("Undo(remaining"+model.undoCounter+")");
 		
 		base.setLayout(new BorderLayout());
 		BoardView view = new BoardView(20,10,model,base,ub);

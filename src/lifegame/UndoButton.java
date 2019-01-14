@@ -22,7 +22,7 @@ public class UndoButton implements ActionListener {
 		model.undo();
 		panel.repaint();
 		button1.setEnabled(model.isUndoable());
-		button1.setLabel("Undo(残り"+model.undoCounter+"回)");
+		button1.setLabel("Undo(remaining"+model.undoCounter+")");
 	}
 
 }

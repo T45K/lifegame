@@ -59,7 +59,7 @@ public class BoardView extends JPanel implements BoardListener,MouseListener,Mou
 		
 		panel.repaint();
 		button.setEnabled(model.isUndoable());
-		button.setLabel("Undo(残り"+model.undoCounter+"回)");
+		button.setLabel("Undo(remaining"+model.undoCounter+")");
 		
 		jDragg=j;
 		iDragg=i;
@@ -105,7 +105,7 @@ public class BoardView extends JPanel implements BoardListener,MouseListener,Mou
 		
 		panel.repaint();
 		button.setEnabled(model.isUndoable());
-		button.setLabel("Undo(残り"+model.undoCounter+"回)");
+		button.setLabel("Undo(remaining"+model.undoCounter+")");
 		
 	}
 	
