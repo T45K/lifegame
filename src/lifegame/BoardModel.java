@@ -66,7 +66,7 @@ public class BoardModel {
 		}
 	
 	public boolean isAlive(int x,int y){
-		return(cells[x][y]);
+		return cells[x][y];
 	}
 	
 	
