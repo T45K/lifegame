@@ -18,6 +18,7 @@ public class UndoButton implements ActionListener {
 	button1=button;
 	}
 	
+	@SuppressWarnings("deprecation")
 	public void actionPerformed(ActionEvent e){
 		model.undo();
 		panel.repaint();

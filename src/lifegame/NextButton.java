@@ -18,6 +18,7 @@ public class NextButton implements ActionListener{
 		button1=button;
 	}
 	
+	@SuppressWarnings("deprecation")
 	public void actionPerformed(ActionEvent e){
 		model.next();
 		panel.repaint();

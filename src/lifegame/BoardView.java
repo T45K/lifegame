@@ -6,6 +6,7 @@ import javax.swing.JPanel;
 import java.awt.Point;
 import javax.swing.JButton;
 
+@SuppressWarnings("serial")
 public class BoardView extends JPanel implements BoardListener,MouseListener,MouseMotionListener{
 	public int cols;
 	public int rows;
@@ -32,6 +33,8 @@ public class BoardView extends JPanel implements BoardListener,MouseListener,Mou
 	
 	public void mouseEntered(MouseEvent e){}
 	public void mouseExited(MouseEvent e){}
+	
+	@SuppressWarnings("deprecation")
 	public void mousePressed(MouseEvent e){
 		w=this.getWidth();
 		h=this.getHeight();
@@ -66,6 +69,7 @@ public class BoardView extends JPanel implements BoardListener,MouseListener,Mou
 	}
 	public void mouseReleased(MouseEvent e){}
 	
+	@SuppressWarnings("deprecation")
 	public void mouseDragged(MouseEvent e){
 		w=this.getWidth();
 		h=this.getHeight();
