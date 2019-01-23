@@ -30,7 +30,7 @@ public class Main implements Runnable {
 		frame.setMinimumSize(new Dimension(350,300));
 		
 
-		JButton ub = new JButton("Undo(残り"+model.undoCounter+"回)");
+		JButton ub = new JButton("Undo(remaining"+model.undoCounter+")");
 		
 		base.setLayout(new BorderLayout());
 		BoardView view = new BoardView(20,20,model,base,ub);
